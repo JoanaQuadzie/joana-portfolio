@@ -2,17 +2,14 @@ import React from 'react';
 
 export default function Navbar() {
     return (
-        <div className="bg-black text-white py-4 text-left">
-            <div className="place-content-center">
-                <ul className="flex space-x-3">
+        <div className="bg-zinc-800 text-amber-400 py-4 font-bold">
+            <div>
+                <ul className="flex space-x-3 place-content-end mr-10">
                     <li>
                         <a>ABOUT</a>
                     </li>
                     <li>
                         <a>EDUCATION</a>
-                    </li>
-                    <li>
-                        <a>SKILLS</a>
                     </li>
                     <li>
                         <a>ACHIEVEMENTS</a>
