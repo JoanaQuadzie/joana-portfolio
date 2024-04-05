@@ -4,11 +4,6 @@ import Bgport from "../assets/bgport.jpg";
 
 export default function Hero() {
 
-    const [showOptions, setShowOptions] = useState(false);
-    const toggleOptions = () => {
-        setShowOptions(!showOptions)
-    }; 
-
     return (
         <div className="flex grid-cols-2 pb-10">
 
@@ -19,20 +14,13 @@ export default function Hero() {
                 <p className="white ml-10">I'm a cheerful and approachable young lady eager to immerse myself in the dynamic world of technology, motivated by personal growth and the desire to embrace new challenges</p>
 
                 <div className="btn">
-                <div className="dropdown">
-                <button class="bg-lime-700 text-amber-500 px-4 py-2 text-sm font-semibold rounded cursor-pointer ml-10 mt-5 hover:bg-zinc-400">Download CV</button>
+                        <button type="submit" class="bg-lime-700 text-amber-500 px-4 py-2 text-sm font-semibold rounded cursor-pointer ml-10 mt-5 hover:bg-zinc-400">Download CV</button>
+                        <a href="/Joana Quadzie Resume - Tech.docx.pdf" download="Joana Quadzie Resume - Tech.docx.pdf"></a>
 
-                    {showOptions && (
-                        <div className="dropdown-content">
-                            <a href="https://drive.google.com/file/d/1qgNIbfHlh5mFA7hzgY3sMRVNpDYBx2wa/view?usp=sharing">View CV</a>
-                            <a href="/Jennifer Agbeli's Resume - Tech.docx.pdf" download="Jennifer Agbeli's Resume - Tech.docx.pdf">Download PDF</a>
-                        </div>
-                    )}
                 </div>
             </div>
-            </div>
-            
-            
+
+
 
 
         </div>
