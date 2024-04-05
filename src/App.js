@@ -4,6 +4,7 @@ import Hero from './components/hero';
 import About from './components/about';
 import Achievements from './components/achievements';
 import Projects from './components/projects';
+import Footer from './components/footer';
 
 
 
@@ -15,6 +16,7 @@ function App() {
     < About />
     < Achievements />
     < Projects />
+    < Footer />
     
     </>   
   );

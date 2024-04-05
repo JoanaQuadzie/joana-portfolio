@@ -9,9 +9,6 @@ export default function Navbar() {
                         <a>ABOUT</a>
                     </li>
                     <li>
-                        <a>EDUCATION</a>
-                    </li>
-                    <li>
                         <a>ACHIEVEMENTS</a>
                     </li>
                     <li>
