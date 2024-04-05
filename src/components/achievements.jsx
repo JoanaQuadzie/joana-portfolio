@@ -4,7 +4,7 @@ import Cert from "../assets/cert.png";
 
 export default function achievements() {
     return (
-        <section className=" p-8 ">
+        <section id="achievements" className=" p-8 ">
 
             <h2 className="text-3xl font-bold text-center p-4 text-lime-700 py-6">ACHIEVEMENTS</h2>
             <div className=" flex justify-center">

@@ -14,8 +14,7 @@ export default function Hero() {
                 <p className="white ml-10">I'm a cheerful and approachable young lady eager to immerse myself in the dynamic world of technology, motivated by personal growth and the desire to embrace new challenges</p>
 
                 <div className="btn">
-                        <button type="submit" class="bg-lime-700 text-amber-500 px-4 py-2 text-sm font-semibold rounded cursor-pointer ml-10 mt-5 hover:bg-zinc-400">Download CV</button>
-                        <a href="/Joana Quadzie Resume - Tech.docx.pdf" download="Joana Quadzie Resume - Tech.docx.pdf"></a>
+                <a href="/Joana Quadzie - TECH CV.pdf" id='download-cv' download="Joana Quadzie - TECH CV.pdf"> <button type="submit" class="bg-lime-700 text-amber-500 px-4 py-2 text-sm font-semibold rounded cursor-pointer ml-10 mt-5 hover:bg-zinc-400">Download CV</button></a>
 
                 </div>
             </div>

@@ -12,11 +12,11 @@ function App() {
   return (
    <>
     < Homepage />
-    < Hero />
-    < About />
-    < Achievements />
-    < Projects />
-    < Footer />
+    < Hero id="hero" />
+    < About id="about"/>
+    < Achievements id="achievements"/>
+    < Projects id="projects"/>
+    < Footer id="footer"/>
     
     </>   
   );
