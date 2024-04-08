@@ -5,9 +5,9 @@ import Bgport from "../assets/bgport.jpg";
 export default function Hero() {
 
     return (
-        <div className="flex grid-cols-2 pb-10">
+        <div className="flex grid-cols-2 md:grid-cols-2 pb-10">
 
-            <div className="bg-cover bg-center w-full h-screen" style={{ backgroundImage: `url(${Bgport})` }}>
+            <div className="bg-cover bg-center bg-gradient-to-l md:bg-gradient-to-r w-full h-screen" style={{ backgroundImage: `url(${Bgport})` }}>
             </div>
             <div className="content-center bg-zinc-300">
                 <h2 className="text-4xl mb-10 font-bold text-lime-700 ml-10">Hi! I'm Joana</h2>

@@ -12,12 +12,6 @@ function App() {
   return (
    <>
     < Homepage />
-    < Hero id="hero" />
-    < About id="about"/>
-    < Achievements id="achievements"/>
-    < Projects id="projects"/>
-    < Footer id="footer"/>
-    
     </>   
   );
 }

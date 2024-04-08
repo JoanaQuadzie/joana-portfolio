@@ -6,8 +6,8 @@ export default function achievements() {
     return (
         <section id="achievements" className=" p-8 ">
 
-            <h2 className="text-3xl font-bold text-center p-4 text-lime-700 py-6">ACHIEVEMENTS</h2>
-            <div className=" flex justify-center">
+            <h2 className="text-3xl font-bold text-center p-4 text-lime-700 py-6">Achievements</h2>
+            <div className="flex flex-col justify-center md:flex-row">
 
 
                 <div class="mr-5 max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 ">
