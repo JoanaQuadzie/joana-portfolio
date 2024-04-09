@@ -2,7 +2,8 @@ import React from 'react'
 
 export default function about() {
     return (
-        <div className="bg-zinc-300 text-black mb-10">
+        <div>
+            <div className="sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-1 bg-zinc-300 text-black">
             <div className="text-center">
                 <h2 className="text-3xl py-8 font-bold text-lime-700">About Me</h2>
                 <p className="text-1xl w-6/6 mx-96">
@@ -27,6 +28,7 @@ export default function about() {
 
                 </div>
 
+            </div>
             </div>
         </div>
 
