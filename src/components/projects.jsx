@@ -1,87 +1,76 @@
 import React from 'react';
 import Foodcart from "../assets/foodcart.png";
-import Movie from "../assets/movie.png";
-import Dinerich from "../assets/dinerich.png";
+import Movies from "../assets/movies.png";
+import Juice3 from "../assets/juice3.jpg";
+import Port2 from "../assets/port2.jpg";
 
 export default function projects() {
     return (
-        
+        <div>
         <div className="bg-zinc-300 text-lime-700 py-10">
             <h2 className="text-center py-8 font-bold text-3xl">Find My Exciting Projects</h2>
-            <section className="grid grid-cols-1 md:grid-cols-3 gap-16 pl-5">
-                <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-                    <a href="#">
-                        <img class="rounded-t-lg" src={Foodcart} alt="" /> 
-                    </a>
-                    <div class="p-5">
-                        <a href="#"  target="_blank">
-                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-lime-700 dark:text-white">Opal Foodcart</h5>
-                        </a>
-                        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Opal organic food cart serves you freshly transported foodstuff at the comfort of your zone</p>
-                        <a href="https://github.com/Opal-Organic-Market/Opal-Foodcart.git" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-gray-900 rounded-lg hover:bg-amber-900 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800  mr-0 md:mr-2">
+            <section className="grid grid-cols-1 md:grid-cols-4">
+                
+                
+            <a href="#" class="flex flex-col items-center bg-zinc-300 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+    <img class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg ml-5 mt-8" src={Foodcart} alt=""/>
+    <div class="flex flex-col justify-between p-4 leading-normal">
+        <h5 class="mb-2 text-2xl font-bold tracking-tight text-lime-900 dark:text-white">Opal Foodcart</h5>
+        <a href="https://github.com/Opal-Organic-Market/Opal-Foodcart.git" class="inline-flex items-center px-3 py-2 mb-3 text-sm font-medium text-center text-white bg-gray-900 rounded-lg hover:bg-amber-900 dark:bg-blue-600 dark:hover:bg-blue-700 ">
                             Github
-                            <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
-                            </svg>
                         </a>
-                        <a href="https://opal-foodcart.vercel.app/" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-gray-900 rounded-lg hover:bg-amber-900 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                        <a href="https://opal-foodcart.vercel.app/" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-gray-900 rounded-lg hover:bg-amber-900 dark:bg-blue-600 dark:hover:bg-blue-700">
                             Live demo
-                            <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="https://opal-foodcart.vercel.app/" fill="none" viewBox="0 0 14 10">
-                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
-                            </svg>
-                        </a>
-                    </div>
-                </div>
+                        </a>   
+     </div>
+     </a>
 
-                <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-                    <a href="#">
-                        <img class="rounded-t-lg" src={Movie} alt="" />
-                    </a>
-                    <div class="p-5">
-                        <a href="#">
-                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-lime-700 dark:text-white">TMDB Search App</h5>
-                        </a>
-                        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">A movie search application which allows users to explore movies by searching different categories</p>
-                        <a href="https://github.com/Opal-Organic-Market/movieSearchApp.git" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-gray-900 rounded-lg hover:bg-amber-900 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+      
+     <a href="#" class="flex flex-col items-center bg-zinc-300 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+    <img class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg ml-5 mt-8" src={Movies} alt=""/>
+    <div class="flex flex-col justify-between p-4 leading-normal">
+        <h5 class="mb-2 text-2xl font-bold tracking-tight text-lime-900 dark:text-white">TMDB Search APP</h5>
+        <a href="https://github.com/Opal-Organic-Market/movieSearchApp" class="inline-flex items-center px-3 py-2 mb-3 text-sm font-medium text-center text-white bg-gray-900 rounded-lg hover:bg-amber-900 dark:bg-blue-600 dark:hover:bg-blue-700 ">
                             Github
-                            <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
-                            </svg>
                         </a>
-                        <a href="https://movie-search-app-phi-topaz.vercel.app/" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-gray-900 rounded-lg hover:bg-amber-900 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                        <a href="https://movie-search-app-phi-topaz.vercel.app/" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-gray-900 rounded-lg hover:bg-amber-900 dark:bg-blue-600 dark:hover:bg-blue-700">
                             Live demo
-                            <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
-                            </svg>
-                        </a>
-                    </div>
-                </div>
+                        </a>   
+     </div>
+     </a>
 
-                <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-                    <a href="#">
-                        <img class="rounded-t-lg" src={Dinerich} alt="" />
-                    </a>
-                    <div class="p-5">
-                        <a href="#">
-                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-lime-700 dark:text-white">DineRich JuiceBar</h5>
-                        </a>
-                        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Serving you purely natural and locally made fruit juices made with love for all your plush events</p>
-                        <a href="https://github.com/JoanaQuadzie/Landing.git" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-gray-900 rounded-lg hover:bg-amber-900 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+    <a href="#" class="flex flex-col items-center bg-zinc-300 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+    <img class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg ml-5 mt-8" src={Juice3} alt=""/>
+    <div class="flex flex-col justify-between p-4 leading-normal">
+        <h5 class="mb-2 text-2xl font-bold tracking-tight text-lime-900 dark:text-white">DineRich JuiceBar</h5>
+        <a href="https://github.com/JoanaQuadzie/Landing.git" class="inline-flex items-center px-3 py-2 mb-3 text-sm font-medium text-center text-white bg-gray-900 rounded-lg hover:bg-amber-900 dark:bg-blue-600 dark:hover:bg-blue-700 ">
                             Github
-                            <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="https://landing-92bx.vercel.app/" fill="none" viewBox="0 0 14 10">
-                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
-                            </svg>
                         </a>
-                                                <a href="https://landing-92bx.vercel.app/" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-gray-900 rounded-lg hover:bg-amber-900 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                        <a href="https://landing-92bx.vercel.app/" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-gray-900 rounded-lg hover:bg-amber-900 dark:bg-blue-600 dark:hover:bg-blue-700">
                             Live demo
-                            <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
-                            </svg>
+                        </a>   
+     </div>
+     </a>
+
+
+     <a href="#" class="flex flex-col items-center bg-zinc-300 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+    <img class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg ml-5 mt-8" src={Port2} alt=""/>
+    <div class="flex flex-col justify-between p-4 leading-normal">
+        <h5 class="mb-2 text-2xl font-bold tracking-tight text-lime-900 dark:text-white">Portfolio</h5>
+        <a href="https://github.com/Opal-Organic-Market/Portfolio-" class="inline-flex items-center px-3 py-2 mb-3 text-sm font-medium text-center text-white bg-gray-900 rounded-lg hover:bg-amber-900 dark:bg-blue-600 dark:hover:bg-blue-700 ">
+                            Github
                         </a>
-                    </div>
-                </div>
-            </section>
-        </div>
+                        <a href="https://portfolio-mu-two-59.vercel.app/" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-gray-900 rounded-lg hover:bg-amber-900 dark:bg-blue-600 dark:hover:bg-blue-700">
+                            Live demo
+                        </a>   
+     </div>
+     </a>
+
+
+
+     </section>
+    </div>
+    </div>
     )
 
 }

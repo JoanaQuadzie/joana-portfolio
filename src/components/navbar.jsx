@@ -2,8 +2,8 @@ import React from 'react';
 
 export default function Navbar() {
     return (
-        <div className="bg-zinc-800 text-amber-400 py-4 font-bold">
-            <div>
+        <div>
+            <div className="bg-zinc-800 text-amber-400 py-4 font-bold fixed top-0 w-full">
                 <ul className="flex space-x-3 place-content-end mr-10">
                     <li>
                         <a>ABOUT</a>

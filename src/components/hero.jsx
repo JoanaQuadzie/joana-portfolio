@@ -10,10 +10,10 @@ export default function Hero() {
           style={{ backgroundImage: `url(${Bgport})` }}
         ></div>
         <div className="content-center bg-zinc-300">
-          <h2 className="text-4xl mb-10 font-bold text-lime-700 ml-10">
+          <h2 className="text-5xl mb-12 font-bold text-lime-700 ml-10">
             Hi! I'm Joana
           </h2>
-          <p className="white ml-10">
+          <p className="white ml-10 text-2xl">
             I'm a cheerful and approachable young lady eager to immerse myself
             in the dynamic world of technology, motivated by personal growth and
             the desire to embrace new challenges
