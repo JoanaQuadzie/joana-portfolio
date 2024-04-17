@@ -4,7 +4,7 @@ import Bgport from "../assets/bgport.jpg";
 export default function Hero() {
   return (
     <div>
-      <div className="grid sm:grid-rows-1 lg:grid-cols-2 md:grid-rows-2 ">
+      <div className=" md:grid grid-cols-2 ">
         <div
           className="bg-cover bg-center bg-gradient-to-l md:bg-gradient-to-r w-full h-screen"
           style={{ backgroundImage: `url(${Bgport})` }}

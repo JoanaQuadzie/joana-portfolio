@@ -3,10 +3,10 @@ import React from 'react'
 export default function about() {
     return (
         <div>
-            <div className="sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-1 bg-zinc-300 text-black">
+            <div id="about" className=" md:grid-cols-2 lg:grid-cols-1 bg-zinc-300 text-black">
             <div className="text-center">
-                <h2 className="text-3xl py-8 font-bold text-lime-700">About Me</h2>
-                <p className="text-1xl w-6/6 mx-96">
+                <h2 className="md:text-3xl py-8 font-bold text-lime-700">About Me</h2>
+                <p className=" p-4 text-1xl md:w-6/6 md:mx-96">
                     Acknowledging the ever-growing significance of technology in contemporary society, I am compelled to
                     embark on a new challenge of pursuing a Web Development program. This decision serves as a pivotal step
                     towards establishing myself in the dynamic space of technology. I am enthusiastic about embracing this

@@ -1,21 +1,20 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export default function Navbar() {
     return (
         <div>
             <div className="bg-zinc-800 text-amber-400 py-4 font-bold fixed top-0 w-full">
                 <ul className="flex space-x-3 place-content-end mr-10">
+                    <a href="#about">ABOUT</a>
                     <li>
-                        <a>ABOUT</a>
+                        <a href="#achievements">ACHIEVEMENTS</a>
                     </li>
                     <li>
-                        <a>ACHIEVEMENTS</a>
+                        <a href="#projects">PROJECTS</a>
                     </li>
                     <li>
-                        <a>PROJECTS</a>
-                    </li>
-                    <li>
-                        <a>CONTACT</a>
+                        <a href="#contact">CONTACT</a>
                     </li>
                 </ul>
             </div>

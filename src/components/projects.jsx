@@ -7,7 +7,7 @@ import Port2 from "../assets/port2.jpg";
 export default function projects() {
     return (
         <div>
-        <div className="bg-zinc-300 text-lime-700 py-10">
+        <div id="projects" className="bg-zinc-300 text-lime-700 py-10">
             <h2 className="text-center py-8 font-bold text-3xl">Find My Exciting Projects</h2>
             <section className="grid grid-cols-1 md:grid-cols-4">
                 
