@@ -28,7 +28,7 @@ export default function Hero() {
               {" "}
               <button
                 type="submit"
-                class="bg-lime-700 text-amber-500 px-4 py-2 text-sm font-semibold rounded cursor-pointer ml-10 mt-5 hover:bg-zinc-400"
+                class="bg-lime-700 text-white px-4 py-2 text-sm font-semibold rounded cursor-pointer ml-10 mt-5 hover:bg-zinc-400"
               >
                 Download CV
               </button>

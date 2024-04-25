@@ -3,7 +3,10 @@ import React from "react";
 export default function Contact() {
   return (
     <div>
-      <h2 id="contact" className="py-8 font-bold text-3xl text-center text-lime-700 md:center lg:center">
+      <h2
+        id="contact"
+        className="py-8 font-bold text-3xl text-center text-lime-700 md:center lg:center"
+      >
         I Would Love To Hear From You
       </h2>
       <section className="pl-10 md:center lg:center">
@@ -12,7 +15,7 @@ export default function Contact() {
             <div>
               <label
                 for="first_name"
-                class="block mb-2 text-2xl font-semibold text-gray-900 dark:text-white"
+                class="block mb-2 text-md font-semibold text-gray-900 dark:text-white"
               >
                 Name
               </label>
@@ -27,7 +30,7 @@ export default function Contact() {
             <div>
               <label
                 for="company"
-                class="block mb-2 text-2xl font-semibold text-gray-900 dark:text-white"
+                class="block mb-2 text-md font-semibold text-gray-900 dark:text-white"
               >
                 Email Address
               </label>
@@ -42,7 +45,7 @@ export default function Contact() {
             <div>
               <label
                 for="phone"
-                class="block mb-2 text-2xl font-semibold text-gray-900 dark:text-white"
+                class="block mb-2 text-md font-semibold text-gray-900 dark:text-white"
               >
                 Phone number
               </label>
@@ -59,17 +62,20 @@ export default function Contact() {
           <div class="mb-6">
             <label
               for="email"
-              class="block mb-2 text-2xl font-semibold text-gray-900 dark:text-white"
+              class="block mb-2 text-md font-semibold text-gray-900 dark:text-white"
             >
               Message
             </label>
-            <input
-              type="email"
+            <textarea
               id="email"
-              class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              className="bg-gray-50 border border-gray-300
+              text-gray-900 text-sm rounded-lg focus:ring-blue-500
+              focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700
+              dark:border-gray-600 dark:placeholder-gray-400 dark:text-white
+              dark:focus:ring-blue-500 dark:focus:border-blue-500"
               placeholder="textarea"
               required
-            />
+            ></textarea>
           </div>
 
           <button
