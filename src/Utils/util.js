@@ -45,7 +45,7 @@ export const excitingProjects = [
         website: "https://opal-foodcart.vercel.app/",
         projectName: "Opal Foodcart",
         image: "https://i.postimg.cc/K8WTLF51/foodcart.png",
-        desc: "Lorem, ipsum dolor sit amet consectetur adipisicingelit.Tenetur, vitae consequatur? Deleniti iusto dolore",
+        desc: "An organic market ",
     },
     {
         id: 2,
