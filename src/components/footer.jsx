@@ -1,11 +1,19 @@
 import React from "react";
+import { FaTwitter } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { FaStackOverflow } from "react-icons/fa";
 
 export default function footer() {
   return (
-    <footer className="bg-black py-4 text-center text-amber-600 relative">
-      <h1 className="mb-2 text-xl font-semibold">Joana Nornor-Quadzie</h1>
-      <p className="mb-2">Junior Developer</p>
-      <p className="mb-2">joanaq03@gmail.com.com</p>
+    <footer>
+      <div>
+        <FaTwitter />
+        <FaGithub />
+        <FaLinkedin />
+        <FaStackOverflow />
+      </div>
+      <p>Copyright ©2024 Joana Nornor-Quadzie | All Rights Reserved</p>
     </footer>
   );
 }
