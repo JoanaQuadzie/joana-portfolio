@@ -5,10 +5,13 @@ export default function About() {
     <section>
       <h2 className="text-xl font-bold font-serif my-8">About Me</h2>
       <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem, odio
-        cupiditate! Laudantium officiis quo enim blanditiis aliquam, quidem,
-        quasi, vel est deleniti laborum inventore molestiae eaque provident
-        architecto voluptas eveniet!
+        I've always loved helping people, whether as a secretary, administrative
+        assistant, or nurse. Although I ended up studying Aquaculture and Water
+        Resource Management at KNUST, I pursued a customer service and
+        administration program with ALISON after university, which led to a role
+        as a school administrator. Craving more growth, I challenged myself and
+        joined the GROW Web Development program by Generation Ghana here I am
+        today pursuing the course i never imagined.
       </p>
     </section>
   );

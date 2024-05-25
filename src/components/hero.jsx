@@ -5,8 +5,6 @@ import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaStackOverflow } from "react-icons/fa";
 
-import Rightarrow from "../assets/rightarrow.png";
-
 export default function Hero() {
   return (
     <div>
@@ -28,11 +26,10 @@ export default function Hero() {
             <img className=" w-48 border rounded-full my-12" src={Bgport} />
           </div>
           <p className="px-24 text-center">
-            Meeting people,exchanging pleasantries and assisting them meet their
-            needs was one thing I loved doing the most. One can attribute this
-            to being a secretary or an administrative assistant where I become
-            the voice of the organization to interact with customers, perform
-            clerical duties and build solid work relationships.{" "}
+            I'm a people-oriented person, thus, I have a natural inclination
+            towards roles that involve interacting with and assisting people.
+            Despite not pursing my dream careers, i adapted and found ways to
+            align my interests with my studies and new found career
           </p>
           <div className="flex justify-center my-6 space-x-5">
             <FaTwitter />
