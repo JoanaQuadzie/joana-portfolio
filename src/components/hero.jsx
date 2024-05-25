@@ -28,8 +28,8 @@ export default function Hero() {
           <p className="px-24 text-center">
             I'm a people-oriented person, thus, I have a natural inclination
             towards roles that involve interacting with and assisting people.
-            Despite not pursing my dream careers, i adapted and found ways to
-            align my interests with my studies and new found career
+            Despite not pursing my dream careers, I challenged myself, diving
+            into a field of zero prior knowledge and now thriving amazingly
           </p>
           <div className="flex justify-center my-6 space-x-5">
             <FaTwitter />

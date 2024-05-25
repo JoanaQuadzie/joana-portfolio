@@ -11,7 +11,7 @@ export default function About() {
         administration program with ALISON after university, which led to a role
         as a school administrator. Craving more growth, I challenged myself and
         joined the GROW Web Development program by Generation Ghana here I am
-        today pursuing the course i never imagined.
+        today pursuing the career i never imagined.
       </p>
     </section>
   );
