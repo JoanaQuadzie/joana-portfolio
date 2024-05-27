@@ -18,7 +18,7 @@ export default function Hero() {
               Joana
             </p>
             <p className="mt-4">
-              I AM A{" "}
+              I AM A
               <span className="font-bold capitalized ">Web Developer</span>
             </p>
           </div>
@@ -34,11 +34,15 @@ export default function Hero() {
           <div className="flex justify-center my-6 space-x-5">
             <FaTwitter />
             <FaGithub />
-            <FaLinkedin />
+            <a href="https://www.linkedin.com/in/joana-nornor-quadzie">
+              <FaLinkedin />
+            </a>
             <FaStackOverflow />
           </div>
-          <div className="text-center mt-2 border rounded-full border-black p-4 ">
-            <button className="font-bold ">DOWNLOAD CV</button>
+          <div className="flex text-center justify-center mt-10">
+            <button className="font-bold  w-fit border rounded-full border-black p-4">
+              DOWNLOAD CV
+            </button>
           </div>
         </section>
       </div>
