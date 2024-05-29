@@ -4,6 +4,7 @@ import { FaTwitter } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaStackOverflow } from "react-icons/fa";
+import Button from "../components/button";
 
 export default function Hero() {
   return (
@@ -25,7 +26,7 @@ export default function Hero() {
           <div className="flex w-full justify-center">
             <img className=" w-48 border rounded-full my-12" src={Bgport} />
           </div>
-          <p className="px-24 text-center">
+          <p className="px-24 text-center text-lg">
             I'm a people-oriented person, thus, I have a natural inclination
             towards roles that involve interacting with and assisting people.
             Despite not pursing my dream careers, I challenged myself, diving
@@ -39,10 +40,8 @@ export default function Hero() {
             </a>
             <FaStackOverflow />
           </div>
-          <div className="flex text-center justify-center mt-10">
-            <button className="font-bold  w-fit border rounded-full border-black p-4">
-              DOWNLOAD CV
-            </button>
+          <div className="flex justify-center mt-10">
+            <Button>DOWNLOAD CV</Button>
           </div>
         </section>
       </div>

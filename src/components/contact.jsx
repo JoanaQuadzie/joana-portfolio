@@ -4,7 +4,9 @@ export default function Contact() {
   return (
     <section>
       <div>
-        <h2>Contact Me</h2>
+        <h2 className="text-2xl font-bold mt-24 mb-4 uppercase tracking-wider text-center">
+          Contact Me
+        </h2>
         <form>
           <label>
             Full Name

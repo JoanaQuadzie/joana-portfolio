@@ -3,7 +3,9 @@ import React from "react";
 export default function Resume() {
   return (
     <section>
-      <h2>My Resume</h2>
+      <h2 className="text-2xl font-bold mt-24 mb-4 uppercase tracking-wider text-center">
+        My Resume
+      </h2>
       <div>
         <h3>Education</h3>
         <div>

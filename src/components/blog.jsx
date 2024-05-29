@@ -4,7 +4,9 @@ import Rightarrow from "../assets/rightarrow.png";
 export default function Blog() {
   return (
     <section>
-      <h2>Latest Articles</h2>
+      <h2 className="text-2xl font-bold mt-24 mb-4 uppercase tracking-wider text-center">
+        Latest Articles
+      </h2>
       <div>
         <div>
           <h4>October 31 2024</h4>
