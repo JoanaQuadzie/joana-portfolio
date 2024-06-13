@@ -9,7 +9,7 @@ export default function Testimonials() {
           Testimonials
         </h2>
       </div>
-      <div className="px-8 gap-10 grid sm:grid-cols-2 md:grid-cols-3">
+      <div className="px-8 gap-10 grid sm:grid-cols-2 md:grid-cols-3 ">
         <TestiCard />
         <TestiCard />
         <TestiCard />

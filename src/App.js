@@ -5,9 +5,9 @@ import Homepage from './assets/pages/homepage';
 
 function App() {
   return (
-    <> 
-          <Homepage />
-    </>
+    <div className="md:px-40">
+      <Homepage />
+    </div>
   );
 }
 

@@ -16,7 +16,7 @@ export default function BlogCard() {
         <FaArrowRight className="text-[#59A587]" />
       </div>
       <div className="flex justify-center">
-        <img className="h-64 rounded-3xl" src={Blog1} />
+        <img className="h-48 rounded-3xl" src={Blog1} />
       </div>
     </article>
   );

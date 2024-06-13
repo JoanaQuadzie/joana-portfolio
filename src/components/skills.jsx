@@ -9,11 +9,11 @@ import Nodejs from "../assets/nodejs.png";
 export default function Skills() {
   return (
     <section>
-      <h2 className="text-2xl font-bold mt-24 mb-4 uppercase tracking-wider text-center">
+      <h2 className="text-2xl font-bold mt-24 mb-8 uppercase tracking-wider text-center">
         Professional Skills
       </h2>
 
-      <div className="grid gap-y-8 sm:grid-cols-2">
+      <div className="grid gap-y-8 sm:grid-cols-2 md:grid-cols-3 md:gap-y-20">
         <div className="text-center space-y-4">
           <img className="h-44 inline" src={Html} />
           <h3 className="text-xl font-bold uppercase tracking-wider">HTML</h3>

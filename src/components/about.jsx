@@ -12,8 +12,8 @@ export default function About() {
         Resource Management at KNUST, I pursued a customer service and
         administration program with ALISON after university, which led to a role
         as a school administrator. Craving more growth, I challenged myself and
-        joined the GROW Web Development program by Generation Ghana here I am
-        today pursuing the career I never imagined.
+        joined the GROW Web Development program by Generation Ghana and here I
+        am today pursuing the career I never imagined.
       </p>
     </section>
   );

@@ -1,11 +1,11 @@
 import React from "react";
-import Blackwoman from "../assets/blackwoman.jpg";
+import Alfred from "../assets/alfred.jpg";
 
 export default function TestiCard() {
   return (
-    <article className="border rounded-xl bg-white p-8 sm:w-96 space-y-8">
+    <article className="border rounded-xl bg-white p-8 space-y-8">
       <div className="flex justify-center">
-        <img className="h-48 rounded-xl" src={Blackwoman} />
+        <img className="h-40 rounded-xl" src={Alfred} />
       </div>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
