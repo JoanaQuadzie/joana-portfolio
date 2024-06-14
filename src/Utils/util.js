@@ -71,5 +71,7 @@ export const excitingProjects = [
         image: "https://i.postimg.cc/Pxs8349h/port.png",
         desc: "Lorem, ipsum dolor sit amet consectetur adipisicingelit.Tenetur, vitae consequatur? Deleniti iusto dolore",
     },
-    
+
 ]
+
+

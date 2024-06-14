@@ -5,6 +5,7 @@ import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaStackOverflow } from "react-icons/fa";
 import Button from "../components/button";
+import JoanaCV from "../assets/JoanaCV.pdf";
 
 export default function Hero() {
   return (
@@ -33,15 +34,24 @@ export default function Hero() {
             into a field of zero prior knowledge and now thriving amazingly
           </p>
           <div className="flex justify-center my-6 space-x-5">
-            <FaTwitter />
-            <FaGithub />
+            <a href="@JQuadzi">
+              <FaTwitter />
+            </a>
+
+            <a href="https://github.com/JoanaQuadzie">
+              <FaGithub />
+            </a>
+
             <a href="https://www.linkedin.com/in/joana-nornor-quadzie">
               <FaLinkedin />
             </a>
+
             <FaStackOverflow />
           </div>
           <div className="flex justify-center mt-10">
-            <Button>DOWNLOAD CV</Button>
+            <a href={JoanaCV} download="Joana Quadzie CV">
+              <Button>DOWNLOAD CV</Button>
+            </a>
           </div>
         </section>
       </div>
