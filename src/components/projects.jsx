@@ -4,6 +4,7 @@ import Button from "./button";
 import Juice2 from "../assets/juice2.jpg";
 import foodcart from "../assets/foodcart.png";
 import Diash from "../assets/diash.png";
+import { Link } from "react-router-dom";
 
 const projectList = [
   {
@@ -11,21 +12,21 @@ const projectList = [
     description:
       "A locally made drink hub with a unique taste which happens to be the preferrence of everyone upon having a sip",
     image: Juice2,
-    link: "",
+    id: 1,
   },
   {
     title: "Opal Foodcart",
     description:
       "A Food Market agricultural community which takes pride in connecting consumers with fresh, wholesome goods while supporting local growers digitally",
     image: foodcart,
-    link: "",
+    id: 2,
   },
   {
     title: "Diashi-Nam",
     description:
       "An online market place where you get to shop from the comfort of your homes and have items delivered to you in a few minutes",
     image: Diash,
-    link: "",
+    id: 3,
   },
 ];
 export default function Projects() {
@@ -41,12 +42,14 @@ export default function Projects() {
             title={project.title}
             description={project.description}
             image={project.image}
-            link={project.link}
+            id={project.id}
           />
         ))}
       </div>
       <div className="flex justify-center mt-10">
-        <Button>VIEW MORE</Button>
+        <Link to="/projects">
+          <Button>VIEW MORE</Button>
+        </Link>
       </div>
     </section>
   );
