@@ -1,6 +1,6 @@
 import React from "react";
 import { useParams } from "react-router-dom";
-import Juice2 from "../assets/juice2.jpg";
+import Button from "../components/button";
 import { getProject } from "../data";
 
 export default function Projectpage() {
@@ -10,23 +10,24 @@ export default function Projectpage() {
 
   return (
     <div>
-      <h2 className="text-4xl font-bold my-6">{project.title}</h2>
-      <p className="text-xl font-semibold">Stack:</p>
-      <p>HTML, CSS</p>
-      <button>LIVE PREVIEW</button>
-      <div className="h-80 w-80">
-        <img src={project.image} alt="juicebar" />
+      <h2 className="text-4xl font-bold my-10">{project.title}</h2>
+      <p className="text-3xl font-semibold">Stack:</p>
+      <div className="flex justify-between">
+        <p className="text-xl">HTML, CSS</p>
+        <Button>LIVE PREVIEW</Button>
       </div>
-      <div>
+      <div className="">
+        <img className="h-[700px]" src={project.image} alt="juicebar" />
+      </div>
+      <div className="my-14">
+        <h2 className="font-bold text-4xl mb-10">Description</h2>
+        <h3>{project.description}</h3>
+      </div>
+      <div className="grid md:grid-cols-2 gap-5">
         {project.screenshots.map((screenshot, index) => (
-          <img key={index} src={screenshot} />
+          <img className="h-[350px]" key={index} src={screenshot} />
         ))}
       </div>
-      <h3>{project.description}</h3>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum ad debitis
-        labore voluptates itaque amet inventore, rem maiores
-      </p>
       <div>
         <img src="" alt="" />
       </div>

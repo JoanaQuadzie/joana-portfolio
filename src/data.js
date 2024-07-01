@@ -1,10 +1,10 @@
 
 import foodcart from "./assets/foodcart.png";
 import Diash from "./assets/diash.png";
-import Beauristraw from "./assets/Beauristraw.jpeg";
-import Akuvi from "./assets/akuvi.jpg";
-import Tonybytes from "./assets/Tonybytes.jpg";
-import Melon from "./assets/melon.jpg";
+import P2 from "./assets/p2.png";
+import P3 from "./assets/p3.png";
+import P4 from "./assets/p4.png";
+import P5 from "./assets/p5.png";
 
 
 
@@ -12,10 +12,10 @@ export const projectList = [
     {
         title: "DineRich JuiceBar",
         description:
-            "A locally made drink hub with a unique taste which happens to be the preferrence of everyone upon having a sip",
-        image: Melon,
+            "DineRich JuiceBar is a local favorite known for its wide variety of natural fruit juices made from the freshest ingredients. it's offerings include custom juice blends, seasonal specials, wellness shots, and smoothies, with popular options like Tropical Delight and Berry Bliss. The dedicated team ensures the best experience for their customers. Developing the DineRich JuiceBar website was my first coding project, which helped me grow my skills and passion for web development.",
+        image: P2,
         id: 1,
-        screenshots: [Beauristraw, Akuvi, Tonybytes]
+        screenshots: [P3, P4, P5]
     },
     {
         title: "Opal Foodcart",
