@@ -5,6 +5,12 @@ import P2 from "./assets/p2.png";
 import P3 from "./assets/p3.png";
 import P4 from "./assets/p4.png";
 import P5 from "./assets/p5.png";
+import Pr1 from "./assets/pr1.png";
+import Pr2 from "./assets/pr2.png";
+import Pr3 from "./assets/pr3.png";
+import Prp1 from "./assets/prp1.png";
+import Prp2 from "./assets/prp2.png";
+import Prp3 from "./assets/prp3.png";
 
 
 
@@ -20,10 +26,10 @@ export const projectList = [
     {
         title: "Opal Foodcart",
         description:
-            "A Food Market agricultural community which takes pride in connecting consumers with fresh, wholesome goods while supporting local growers digitally",
+            "Opal Foodcart is a food market agricultural community which takes pride in connecting consumers with fresh, wholesome goods while supporting local growers digitally. The aim of this project was to make available fresh farm produce to consumers and middle market men in order to save them travelling long journey to purchase from wholesalers",
         image: foodcart,
         id: 2,
-        screenshots: []
+        screenshots: [Pr1, Pr2, Pr3]
     },
     {
         title: "Diashi-Nam",
@@ -31,7 +37,15 @@ export const projectList = [
             "An online market place where you get to shop from the comfort of your homes and have items delivered to you in a few minutes",
         image: Diash,
         id: 3,
-        screenshots: []
+        screenshots: [Prp1, Prp2, Prp3]
+    },
+    {
+        title: "Fresh-Market",
+        description:
+            "An online market place where you get to shop from the comfort of your homes and have items delivered to you in a few minutes",
+        image: Diash,
+        id: 3,
+        screenshots: [Prp1, Prp2, Prp3]
     },
 ];
 
