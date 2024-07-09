@@ -6,7 +6,10 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
+    container: {
+      center: true,
+    },
     extend: { fontFamily: { serif: ["Jost", ...fontFamily.serif], sans: ["Jost", ...fontFamily.sans] } },
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/typography")],
 }

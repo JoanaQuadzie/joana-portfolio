@@ -49,7 +49,14 @@ export const projectList = [
     },
 ];
 
-export function getProject(projectId) {
-    const project = projectList.find((project) => project.id == projectId)
-    return project
-}
+
+export const ARTICLES = [
+    {
+        slug: 'my-journey-into-tech',
+        title: 'My Journey Into Tech',
+        image: Diash, // change me(Diash)
+        description: `In this article, I write about my inlikely journey into tech. I hope you enjoy it.`
+
+    },
+
+]

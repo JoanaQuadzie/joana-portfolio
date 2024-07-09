@@ -1,7 +1,7 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import Button from "../components/button";
-import { getProject } from "../data";
+import { getProject } from "../Utils/util";
 
 export default function Projectpage() {
   const params = useParams();

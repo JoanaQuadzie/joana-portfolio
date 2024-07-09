@@ -2,6 +2,7 @@ import React from "react";
 import Rightarrow from "../assets/rightarrow.png";
 import BlogCard from "./blog-card";
 import Button from "./button";
+import { ARTICLES } from "../data";
 
 export default function Blog() {
   return (
@@ -10,9 +11,15 @@ export default function Blog() {
         Latest Articles
       </h2>
       <div className="p-8 gap-8 grid sm:grid-cols-2 md:grid-cols-3">
-        <BlogCard />
-        <BlogCard />
-        <BlogCard />
+        {ARTICLES.map((article) => (
+          <BlogCard
+            title={article.title}
+            description={article.description}
+            image={article.image}
+            slug={article.slug}
+            date={article.date}
+          />
+        ))}
       </div>
       <div className="flex justify-center mt-10">
         <Button>VIEW BLOG</Button>
