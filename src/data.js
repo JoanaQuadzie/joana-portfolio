@@ -18,7 +18,7 @@ export const projectList = [
     {
         title: "DineRich JuiceBar",
         description:
-            "DineRich JuiceBar is a local favorite known for its wide variety of natural fruit juices made from the freshest ingredients. it's offerings include custom juice blends, seasonal specials, wellness shots, and smoothies, with popular options like Tropical Delight and Berry Bliss. The dedicated team ensures the best experience for their customers. Developing the DineRich JuiceBar website was my first coding project, which helped me grow my skills and passion for web development.",
+            "Developing the DineRich JuiceBar website was my first coding project, which helped me grow my skills and passion for web development.",
         image: P2,
         id: 1,
         screenshots: [P3, P4, P5]
