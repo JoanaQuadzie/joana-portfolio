@@ -7,7 +7,7 @@ import { projectList } from "../data";
 
 export default function Projects() {
   return (
-    <section>
+    <section id="projects">
       <h2 className="text-2xl font-bold mt-24 mb-4 uppercase tracking-wider text-center">
         Projects
       </h2>

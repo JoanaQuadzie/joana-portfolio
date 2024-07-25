@@ -22,7 +22,7 @@ export default function homepage() {
       <Testimonials />
       <Blog />
       <Contact />
-      <Footer id="footer" />
+      <Footer />
     </>
   );
 }

@@ -23,11 +23,23 @@ export default function Projectpage() {
         <h2 className="font-bold text-4xl mb-10">Description</h2>
         <h3>{project.description}</h3>
       </div>
+      {project.challenges && (
+        <div>
+          <h2 className="font-bold text-4xl mb-10">Challenges</h2>
+          <div>{project.challenges}</div>
+        </div>
+      )}
       <div className="grid md:grid-cols-2 gap-5">
         {project.screenshots.map((screenshot, index) => (
           <img className="md:h-[350px]" key={index} src={screenshot} />
         ))}
       </div>
+      {project.thoughtprocess && (
+        <div>
+          <h2 className="font-bold text-4xl mb-10">Thought Process</h2>
+          <div>{project.thoughtprocess}</div>
+        </div>
+      )}
       <div>
         <img src="" alt="" />
       </div>

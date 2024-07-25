@@ -8,7 +8,7 @@ import Nodejs from "../assets/nodejs.png";
 
 export default function Skills() {
   return (
-    <section>
+    <section id="skills">
       <h2 className="text-2xl font-bold mt-24 mb-8 uppercase tracking-wider text-center">
         Professional Skills
       </h2>

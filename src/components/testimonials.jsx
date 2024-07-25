@@ -3,7 +3,7 @@ import TestiCard from "./testi-card";
 
 export default function Testimonials() {
   return (
-    <section>
+    <section id="testimonials">
       <div>
         <h2 className="text-2xl font-bold mt-24 mb-4 uppercase tracking-wider text-center">
           Testimonials

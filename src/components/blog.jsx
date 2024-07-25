@@ -6,7 +6,7 @@ import { ARTICLES } from "../data";
 
 export default function Blog() {
   return (
-    <section>
+    <section id="blog">
       <h2 className="text-2xl font-bold mt-24 mb-4 uppercase tracking-wider text-center">
         Latest Articles
       </h2>

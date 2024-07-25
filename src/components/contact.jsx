@@ -3,7 +3,7 @@ import Button from "./button";
 
 export default function Contact() {
   return (
-    <section>
+    <section id="contact">
       <div>
         <h2 className="text-2xl font-bold mt-24 mb-4 uppercase tracking-wider text-center">
           Contact Me

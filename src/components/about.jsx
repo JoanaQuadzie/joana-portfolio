@@ -2,7 +2,7 @@ import React from "react";
 
 export default function About() {
   return (
-    <section>
+    <section id="about">
       <h2 className="text-2xl font-bold mt-24 mb-4 uppercase tracking-wider text-center">
         About Me
       </h2>
