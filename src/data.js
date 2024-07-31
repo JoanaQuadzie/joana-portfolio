@@ -18,6 +18,7 @@ import Techimage from "./assets/techimage.jpg";
 export const projectList = [
     {
         title: "DineRich JuiceBar",
+        stack: "HTML, CSS",
         description:
             "Developing the DineRich JuiceBar website was my first coding project. This was me as a beginner putting in my all to demonstrate my newly acquired skills. Find out more here",
         challenges: <>
@@ -37,6 +38,7 @@ export const projectList = [
     },
     {
         title: "Opal Foodcart",
+        stack: "HTML, CSS, JavaScript",
         description:
             "Together with 3 other teammates, we developed the Opal Foodcart, an e-commerce marketplace which connects consumers to fresh and wholesome goods while supporting local growers digitally.",
         thoughtprocess: <>
@@ -53,6 +55,7 @@ export const projectList = [
     },
     {
         title: "Diashi-Nam",
+        stack: "React, JavaScript, Tailwindcss",
         description:
             "This project was particularly significant to me, as it was my final project after three intensive months of learning. I dedicated myself wholeheartedly to it, culminating in a pitch and a short demo presentation.",
         image: Diash,

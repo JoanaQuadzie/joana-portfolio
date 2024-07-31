@@ -13,7 +13,7 @@ export default function Projectpage() {
       <h2 className="text-4xl font-bold my-10">{project.title}</h2>
       <p className="text-3xl font-semibold">Stack:</p>
       <div className="flex justify-between items-center mb-3">
-        <p className="text-xl">HTML, CSS</p>
+        <p className="text-xl">{project.stack}</p>
         <Button>LIVE PREVIEW</Button>
       </div>
       <div className="">
