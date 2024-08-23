@@ -12,6 +12,7 @@ import Prp1 from "./assets/prp1.png";
 import Prp2 from "./assets/prp2.png";
 import Prp3 from "./assets/prp3.png";
 import Techimage from "./assets/techimage.jpg";
+import Mark from "./assets/mark.png";
 
 
 
@@ -71,6 +72,13 @@ export const ARTICLES = [
         title: 'My Journey Into Tech',
         image: Techimage,
         description: `In this article, I write about my inlikely journey into tech. I hope you enjoy it.`
+
+    },
+    {
+        slug: 'my-journey-into-tech',
+        title: 'Markdown',
+        image: Mark,
+        description: `I discovered markdown after months of finishing school. How about you?`
 
     },
 
