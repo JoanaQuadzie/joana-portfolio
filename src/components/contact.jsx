@@ -1,7 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import Button from "./button";
 
 export default function Contact() {
+  const [fullName, setFullName] = useState("");
+  const [email, setEmail] = useState("");
+  const [subject, setSubject] = useState("");
+  const [message, setMessage] = useState("");
   return (
     <section id="contact">
       <div>
@@ -14,6 +18,10 @@ export default function Contact() {
               Full Name
             </div>
             <input
+              required
+              onChange={(event) => {
+                setFullName(event.target.value);
+              }}
               className="w-full border-2 rounded-full border-black h-14"
               type="text"
             />
@@ -23,6 +31,10 @@ export default function Contact() {
               Email Address
             </div>
             <input
+              required
+              onChange={(event) => {
+                setEmail(event.target.value);
+              }}
               className="w-full border-2 rounded-full border-black h-14"
               type="email"
             />
@@ -32,6 +44,10 @@ export default function Contact() {
               Subject
             </div>
             <input
+              required
+              onChange={(event) => {
+                setSubject(event.target.value);
+              }}
               className="w-full border-2 rounded-full border-black h-14"
               type="text"
             />
@@ -41,6 +57,10 @@ export default function Contact() {
               Message
             </div>
             <textarea
+              required
+              onChange={(event) => {
+                setMessage(event.target.value);
+              }}
               className="w-full border-2 rounded-3xl  border-black h-36"
               name=""
               id=""
