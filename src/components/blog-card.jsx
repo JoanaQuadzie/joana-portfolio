@@ -1,6 +1,5 @@
 import React from "react";
 import { FaArrowRight } from "react-icons/fa6";
-import Blog1 from "../assets/blog1.jpg";
 import { Link } from "react-router-dom";
 
 export default function BlogCard(blog) {
