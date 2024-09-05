@@ -75,7 +75,7 @@ export const ARTICLES = [
 
     },
     {
-        slug: 'my-journey-into-tech',
+        slug: 'markdown',
         title: 'Markdown',
         image: Mark,
         description: `I discovered markdown after months of finishing school. How about you?`
