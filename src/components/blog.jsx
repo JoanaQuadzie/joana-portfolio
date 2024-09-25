@@ -1,5 +1,4 @@
 import React from "react";
-import Rightarrow from "../assets/rightarrow.png";
 import BlogCard from "./blog-card";
 import Button from "./button";
 import { ARTICLES } from "../data";

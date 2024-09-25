@@ -2,17 +2,18 @@
 import foodcart from "./assets/foodcart.png";
 import Diash from "./assets/diash.png";
 import P2 from "./assets/p2.png";
-import P3 from "./assets/p3.png";
 import P4 from "./assets/p4.png";
 import P5 from "./assets/p5.png";
-import Pr1 from "./assets/pr1.png";
 import Pr2 from "./assets/pr2.png";
 import Pr3 from "./assets/pr3.png";
-import Prp1 from "./assets/prp1.png";
 import Prp2 from "./assets/prp2.png";
 import Prp3 from "./assets/prp3.png";
 import Techimage from "./assets/techimage.jpg";
 import Mark from "./assets/mark.png";
+import Litmus from "./assets/litmus.png";
+import Litmus1 from "./assets/litmus1.png";
+import Litmus3 from "./assets/litmus3.png";
+
 
 
 
@@ -35,7 +36,7 @@ export const projectList = [
         </>,
         image: P2,
         id: 1,
-        screenshots: [P3, P4, P5]
+        screenshots: [P4, P5]
     },
     {
         title: "Opal Foodcart",
@@ -52,16 +53,42 @@ export const projectList = [
         </>,
         image: foodcart,
         id: 2,
-        screenshots: [Pr1, Pr2, Pr3]
+        screenshots: [Pr2, Pr3]
     },
     {
         title: "Diashi-Nam",
         stack: "React, JavaScript, Tailwindcss",
         description:
             "This project was particularly significant to me, as it was my final project after three intensive months of learning. I dedicated myself wholeheartedly to it, culminating in a pitch and a short demo presentation.",
+        thoughtprocess: <>
+            <p>Recognizing how unappealing it can be to step out into the scorching sun just to buy a few items from the market, I came up with this idea: from the comfort of your home, you can sign up on the platform, choose a rider, create a shopping list with your budget, and simply wait for a confirmation call from the rider. It’s that simple and convenient.</p>
+
+            <p>
+                Finding inspiration for this project was exhausting and mentally draining. I had to comb through numerous websites and pages, comparing their structures and extracting elements to piece together for my own site. After extensive searching, I had gathered a variety of ideas and designs, many with sleek UI elements. However, narrowing them down proved to be a challenge, as I needed to be selective to avoid creating a cluttered and hard-to-navigate interface
+            </p>
+        </>,
         image: Diash,
         id: 3,
-        screenshots: [Prp1, Prp2, Prp3]
+        screenshots: [Prp2, Prp3]
+    },
+    {
+        title: "Litmus - Test Project",
+        stack: "React, JavaScript, Tailwindcss",
+        description:
+            "The Litmus Test project, led by Alpha Virtual Academy, aims to digitalize the GES curriculum by making all learning materials, guides, coursework, and textbooks accessible online. This initiative is designed to enhance learning efficiency for both students and teachers",
+        thoughtprocess: <>
+            <p>
+                When structuring the layout of this project, our first step was to create a design or mockup using Figma before moving on to development. Once the design was finalized, tasks were assigned. I was responsible for implementing the features and FAQs section on the homepage, as well as developing the entire About section
+            </p>
+        </>,
+        challenges: <>
+            <p>
+                As a first-timer working on an open-source project, I initially cloned the repository, eager to get started, only to realize that’s not how things work. I reached out for assistance and was advised to watch YouTube videos on contributing to open-source projects. Through those videos, I learned that forking is the crucial first step. Forking allows you to create your own copy of the project to work on, since direct access to the main repository is usually restricted. Once you fork the project, you can proceed to clone, initialize, create branches, and start working. Although the process wasn’t entirely smooth, it was incredibly insightful, and I gained valuable knowledge along the way."
+            </p>
+        </>,
+        image: Litmus1,
+        id: 4,
+        screenshots: [Litmus, Litmus3]
     },
 ];
 
