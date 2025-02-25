@@ -2,7 +2,7 @@ import React from "react";
 import Html from "../assets/html.png";
 import Css from "../assets/css.png";
 import Js from "../assets/js.png";
-import Jira from "../assets/jira.png";
+import figma2 from "../assets/figma2.png";
 import Mongodb from "../assets/mongodb.png";
 import Nodejs from "../assets/nodejs.png";
 
@@ -33,8 +33,8 @@ export default function Skills() {
           <h3 className="text-xl font-bold uppercase tracking-wider">NodeJs</h3>
         </div>
         <div className="text-center space-y-4">
-          <img className="h-44 inline" src={Jira} />
-          <h3 className="text-xl font-bold uppercase tracking-wider">Jira</h3>
+          <img className="h-44 inline" src={figma2} />
+          <h3 className="text-xl font-bold uppercase tracking-wider">Figma</h3>
         </div>
         <div className="text-center space-y-4">
           <img className="h-44 inline" src={Mongodb} />

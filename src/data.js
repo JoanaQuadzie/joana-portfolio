@@ -13,7 +13,7 @@ import Mark from "./assets/mark.png";
 import Litmus from "./assets/litmus.png";
 import Litmus1 from "./assets/litmus1.png";
 import Litmus3 from "./assets/litmus3.png";
-
+import Girlie from "./assets/girlie.jpg";
 
 
 
@@ -107,6 +107,12 @@ export const ARTICLES = [
         image: Mark,
         description: `I discovered markdown after months of finishing school. How about you?`
 
+    },
+    {
+        slug: 'test-assessment',
+        title: 'Assessment Tests in Tech',
+        image: Girlie,
+        description: 'Thought I applied for a React Frontend role but ended up in a hackathon! lol'
     },
 
 ]

@@ -22,7 +22,7 @@ export default function Contact() {
               onChange={(event) => {
                 setFullName(event.target.value);
               }}
-              className="w-full border-2 rounded-full border-black h-14"
+              className="w-2/3 border-2 rounded-full h-14 p-8"
               type="text"
             />
           </label>
@@ -35,7 +35,7 @@ export default function Contact() {
               onChange={(event) => {
                 setEmail(event.target.value);
               }}
-              className="w-full border-2 rounded-full border-black h-14"
+              className="w-2/3 border-2 rounded-full h-14 p-8"
               type="email"
             />
           </label>
@@ -48,7 +48,7 @@ export default function Contact() {
               onChange={(event) => {
                 setSubject(event.target.value);
               }}
-              className="w-full border-2 rounded-full border-black h-14"
+              className="w-2/3 border-2 rounded-full h-14 p-8"
               type="text"
             />
           </label>
@@ -61,13 +61,13 @@ export default function Contact() {
               onChange={(event) => {
                 setMessage(event.target.value);
               }}
-              className="w-full border-2 rounded-3xl  border-black h-36"
+              className="w-2/3 border-2 rounded-3xl h-36 p-8"
               name=""
               id=""
             ></textarea>
           </label>
-          <Button className="uppercase ml-auto mb-20">Send Message</Button>
         </form>
+        <Button className="uppercase ml-auto mb-20">Send Message</Button>
       </div>
     </section>
   );

@@ -1,0 +1,11 @@
+# Navigating Assessment Tests in Tech
+
+In my recent journey of applying for a React or Next.js developer role, I encountered an unexpected and challenging assessment. After going through the application process, I was invited to take a test. However, what I expected to be a technical multiple-choice assessment turned out to be a comprehensive project requirement: designing a fully functional website for a fictional NGO. This involved creating a name, defining their mission, values, projects, and detailing how the NGO contributes to the country’s success, among other functionalities. Additionally, the site was to be responsive across all devices, effectively making it a full-scale project.
+
+At first, I was perplexed. The sheer amount of content and effort required felt disproportionate for an assessment. It felt like I was being asked to build a fully functional site for free, which raised concerns about the fairness of such demands, especially for an assessment test. As a newcomer in the field, it was disappointing to think that after investing time and effort, there might not even be any feedback, let alone a callback.
+
+However, after discussing this with my mentor, I was advised to proceed but limit the level of detail, completing the project efficiently without over-investing. Together, we worked on the project, and I managed to submit it within three days. While I felt a sense of accomplishment in finishing the task, the lingering thought of not hearing back from the company weighed on me. My mentor's words, "it happens all the time," were a reminder of the reality of job applications, especially in tech.
+
+This experience taught me a valuable lesson: always seek opinions from mentors and superiors. Their experience and insight can provide guidance that helps in making decisions. I also realized that had I not attempted the project, I might have been haunted by the thought of "what if?"—the uncertainty of whether trying would have made a difference.
+
+Ultimately, every experience is a learning opportunity. Whether I get feedback from the company or not, I gained valuable skills, perspective, and the confidence to handle similar situations in the future. In the end, the takeaway is clear: embrace the process, seek advice when needed, and always give your best effort to avoid future regrets.

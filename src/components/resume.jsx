@@ -10,6 +10,19 @@ export default function Resume() {
         <div className="px-8">
           <h3 className="text-center font-bold text-2xl py-4 ">Education</h3>
           <div>
+            <h4 className="font-bold text-xl mb-4">ALX FELLOWSHIP</h4>
+            <div>
+              <p className="font-bold text-lg">AI Career Essentials</p>
+              <p className="font-bold text-m mb-4">
+                August 2024 - September 2024
+              </p>
+              <p className="mb-5">
+                Mastered and gained in-depth understanding of AI concepts to
+                thrive in the rapidly evolving AI era
+              </p>
+            </div>
+          </div>
+          <div>
             <h4 className="font-bold text-xl mb-4">MEST Africa</h4>
             <div>
               <p className="font-bold text-lg">Web Development</p>
