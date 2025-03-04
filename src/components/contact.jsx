@@ -12,7 +12,7 @@ export default function Contact() {
         <h2 className="text-2xl font-bold mt-24 mb-4 uppercase tracking-wider text-center">
           Contact Me
         </h2>
-        <form className="flex flex-col gap-y-4 px-4 sm:px-12">
+        <form className="flex justify-center items-center flex-col gap-y-4 px-4 sm:px-12">
           <label>
             <div className="uppercase font-semibold tracking-wider mb-2 pl-8">
               Full Name
@@ -22,7 +22,7 @@ export default function Contact() {
               onChange={(event) => {
                 setFullName(event.target.value);
               }}
-              className="w-2/3 border-2 rounded-full h-14 p-8"
+              className="w-96 border-2 rounded-full h-14 p-8"
               type="text"
             />
           </label>
@@ -35,7 +35,7 @@ export default function Contact() {
               onChange={(event) => {
                 setEmail(event.target.value);
               }}
-              className="w-2/3 border-2 rounded-full h-14 p-8"
+              className="w-96 border-2 rounded-full h-14 p-8"
               type="email"
             />
           </label>
@@ -48,7 +48,7 @@ export default function Contact() {
               onChange={(event) => {
                 setSubject(event.target.value);
               }}
-              className="w-2/3 border-2 rounded-full h-14 p-8"
+              className="w-96 border-2 rounded-full h-14 p-8"
               type="text"
             />
           </label>
@@ -61,13 +61,19 @@ export default function Contact() {
               onChange={(event) => {
                 setMessage(event.target.value);
               }}
-              className="w-2/3 border-2 rounded-3xl h-36 p-8"
+              className="w-96 border-2 rounded-3xl h-36 p-8"
               name=""
               id=""
             ></textarea>
           </label>
         </form>
-        <Button className="uppercase ml-auto mb-20">Send Message</Button>
+        <div className="flex justify-center">
+          <a href="mailto:joanaq03@gmail.com?subject=Interest In Working With You">
+            <Button className="uppercase mt-6 mb-20 hover:bg-green-900 hover:text-white">
+              Send Message
+            </Button>
+          </a>
+        </div>
       </div>
     </section>
   );

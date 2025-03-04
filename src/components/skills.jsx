@@ -5,6 +5,8 @@ import Js from "../assets/js.png";
 import figma2 from "../assets/figma2.png";
 import Mongodb from "../assets/mongodb.png";
 import Nodejs from "../assets/nodejs.png";
+import reactlogo from "../assets/reactlogo.png";
+import firebaselogo from "../assets/firebaselogo.png";
 
 export default function Skills() {
   return (
@@ -19,8 +21,10 @@ export default function Skills() {
           <h3 className="text-xl font-bold uppercase tracking-wider">HTML</h3>
         </div>
         <div className="text-center space-y-4">
-          <img className="h-44 inline" src={Css} />
-          <h3 className="text-xl font-bold uppercase tracking-wider">CSS</h3>
+          <img className="h-44 inline" src={reactlogo} />
+          <h3 className="text-xl font-bold uppercase tracking-wider">
+            React.js
+          </h3>
         </div>
         <div className="text-center space-y-4">
           <img className="h-44 inline" src={Js} />
@@ -33,14 +37,20 @@ export default function Skills() {
           <h3 className="text-xl font-bold uppercase tracking-wider">NodeJs</h3>
         </div>
         <div className="text-center space-y-4">
-          <img className="h-44 inline" src={figma2} />
-          <h3 className="text-xl font-bold uppercase tracking-wider">Figma</h3>
+          <img className="h-44 inline" src={firebaselogo} />
+          <h3 className="text-xl font-bold uppercase tracking-wider">
+            Firebase
+          </h3>
         </div>
         <div className="text-center space-y-4">
           <img className="h-44 inline" src={Mongodb} />
           <h3 className="text-xl font-bold uppercase tracking-wider">
             MongoDB
           </h3>
+        </div>
+        <div className="text-center space-y-4">
+          <img className="h-44 inline" src={figma2} />
+          <h3 className="text-xl font-bold uppercase tracking-wider">Figma</h3>
         </div>
       </div>
     </section>
