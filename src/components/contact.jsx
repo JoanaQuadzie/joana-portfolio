@@ -68,7 +68,11 @@ export default function Contact() {
           </label>
         </form>
         <div className="flex justify-center">
-          <a href="mailto:joanaq03@gmail.com?subject=Interest In Working With You">
+          <a
+            href={`mailto:joanaq03@gmail.com?subject=${subject}&body=${
+              message + "\n" + "(" + fullName + ")"
+            }&from=${email}`}
+          >
             <Button className="uppercase mt-6 mb-20 hover:bg-green-900 hover:text-white">
               Send Message
             </Button>
