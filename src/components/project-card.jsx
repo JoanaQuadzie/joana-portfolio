@@ -1,6 +1,4 @@
 import React from "react";
-import Rightarrow from "../assets/rightarrow.png";
-import Juice2 from "../assets/juice2.jpg";
 import { FaArrowRight } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 

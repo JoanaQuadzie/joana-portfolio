@@ -14,12 +14,14 @@ import Litmus from "./assets/litmus.png";
 import Litmus1 from "./assets/litmus1.png";
 import Litmus3 from "./assets/litmus3.png";
 import Girlie from "./assets/girlie.jpg";
+import Witen1 from "./assets/witen1.png";
+import Witen from "./assets/witen.png";
 
 
 
 export const projectList = [
     {
-        title: "DineRich JuiceBar",
+        title: "DINERICH JUICEBAR",
         stack: "HTML, CSS",
         description:
             "Developing the DineRich JuiceBar website was my first coding project. This was me as a beginner putting in my all to demonstrate my newly acquired skills. Find out more here",
@@ -39,7 +41,7 @@ export const projectList = [
         screenshots: [P4, P5]
     },
     {
-        title: "Opal Foodcart",
+        title: "OPAL FOODCART",
         stack: "HTML, CSS, JavaScript",
         description:
             "Together with 3 other teammates, we developed the Opal Foodcart, an e-commerce marketplace which connects consumers to fresh and wholesome goods while supporting local growers digitally.",
@@ -56,7 +58,7 @@ export const projectList = [
         screenshots: [Pr2, Pr3]
     },
     {
-        title: "Diashi-Nam",
+        title: "DIASHI - NAM",
         stack: "React, JavaScript, Tailwindcss",
         description:
             "This project was particularly significant to me, as it was my final project after three intensive months of learning. I dedicated myself wholeheartedly to it, culminating in a pitch and a short demo presentation.",
@@ -72,7 +74,7 @@ export const projectList = [
         screenshots: [Prp2, Prp3]
     },
     {
-        title: "Litmus - Test Project",
+        title: "LITMUS - TEST PROJECT",
         stack: "React, JavaScript, Tailwindcss",
         description:
             "The Litmus Test project, led by Alpha Virtual Academy, aims to digitalize the GES curriculum by making all learning materials, guides, coursework, and textbooks accessible online. This initiative is designed to enhance learning efficiency for both students and teachers",
@@ -89,6 +91,25 @@ export const projectList = [
         image: Litmus1,
         id: 4,
         screenshots: [Litmus, Litmus3]
+    },
+    {
+        title: "WOMEN IN TECH ",
+        stack: "React, Nextjs, JavaScript, Shadcn, Tailwindcss",
+        description:
+            "The WITEN concept was born out of an unexpected challenge. What I initially believed to be an assessment test for a React frontend developer role turned out to be a comprehensive project—designing a fully functional website for a fictional NGO.",
+        thoughtprocess: <>
+            <p>
+                When structuring the layout of this project, our first step was to create a design or mockup using Figma before moving on to development. Once the design was finalized, tasks were assigned. I was responsible for implementing the features and FAQs section on the homepage, as well as developing the entire About section
+            </p>
+        </>,
+        challenges: <>
+            <p>
+                As a first-timer working on an open-source project, I initially cloned the repository, eager to get started, only to realize that’s not how things work. I reached out for assistance and was advised to watch YouTube videos on contributing to open-source projects. Through those videos, I learned that forking is the crucial first step. Forking allows you to create your own copy of the project to work on, since direct access to the main repository is usually restricted. Once you fork the project, you can proceed to clone, initialize, create branches, and start working. Although the process wasn’t entirely smooth, it was incredibly insightful, and I gained valuable knowledge along the way."
+            </p>
+        </>,
+        image: Witen,
+        id: 5,
+        screenshots: [Witen1, Litmus3]
     },
 ];
 

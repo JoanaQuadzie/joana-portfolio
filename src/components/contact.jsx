@@ -23,7 +23,7 @@ export default function Contact() {
               onChange={(event) => {
                 setFullName(event.target.value);
               }}
-              className="w-[450px] border-2 rounded-full h-14 p-8"
+              className="w-[550px] border-2 rounded-full h-14 p-8 shadow-lg"
               type="text"
             />
           </label>
@@ -36,7 +36,7 @@ export default function Contact() {
               onChange={(event) => {
                 setEmail(event.target.value);
               }}
-              className="w-[450px] border-2 rounded-full h-14 p-8"
+              className="w-[550px] border-2 rounded-full h-14 p-8 shadow-lg"
               type="email"
             />
           </label>
@@ -49,7 +49,7 @@ export default function Contact() {
               onChange={(event) => {
                 setSubject(event.target.value);
               }}
-              className="w-[450px] border-2 rounded-full h-14 p-8"
+              className="w-[550px] border-2 rounded-full h-14 p-8 shadow-lg"
               type="text"
             />
           </label>
@@ -62,7 +62,7 @@ export default function Contact() {
               onChange={(event) => {
                 setMessage(event.target.value);
               }}
-              className="w-[450px] border-2 rounded-3xl h-44 p-8"
+              className="w-[550px] border-2 rounded-3xl h-44 p-8 shadow-lg"
               name=""
               id=""
             ></textarea>
