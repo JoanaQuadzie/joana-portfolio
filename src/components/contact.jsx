@@ -74,7 +74,7 @@ export default function Contact() {
               message + "\n" + "(" + fullName + ")"
             }&from=${email}`}
           >
-            <Button className="uppercase mt-6 mb-20 hover:bg-green-900 hover:text-white">
+            <Button className="uppercase mt-6 mb-20 hover:bg-yellow-900 hover:text-white">
               Send Message
             </Button>
           </a>

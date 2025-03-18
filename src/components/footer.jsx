@@ -15,8 +15,8 @@ export default function footer() {
       </div>
       <p className="text-center px-14 py-2 font-bold uppercase  leading-8">
         Copyright ©2024{" "}
-        <span className="text-green-500 font-bold">Joana Nornor-Quadzie</span> |
-        All Rights Reserved
+        <span className="text-yellow-700 font-bold">Joana Nornor-Quadzie</span>{" "}
+        | All Rights Reserved
       </p>
       <p className="text-center px-14 pb-8 font-bold uppercase">
         Developed by Alfred Doh-Nani
