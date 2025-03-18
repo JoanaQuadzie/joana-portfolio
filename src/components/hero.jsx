@@ -13,10 +13,10 @@ export default function Hero() {
       <div>
         <section>
           <div className="text-center mt-28">
-            <p className="text-sm font-semibold uppercase">
-              Hello, <span className="text-green-500">my name is</span>
+            <p className="text-lg">
+              Hello, <span className="text-black">my name is</span>
             </p>
-            <p className="text-green-500 text-3xl font-bold mt-4 uppercase">
+            <p className="text-yellow-900 text-3xl font-bold mt-4 uppercase">
               Joana
             </p>
           </div>

@@ -10,15 +10,20 @@ export default function Projectpage() {
 
   return (
     <div className="px-8">
-      <h2 className="text-4xl font-bold my-10">{project.title}</h2>
-      <p className="text-3xl font-semibold">Stack:</p>
       <div className="flex justify-between items-center mb-3">
-        <p className="text-xl">{project.stack}</p>
+        <h2 className="text-4xl font-bold mb-10 mt-24">{project.title}</h2>
         <Button>LIVE PREVIEW</Button>
       </div>
-      <div className="">
+
+      <div>
         <img className="md:h-[700px] " src={project.image} alt="juicebar" />
       </div>
+
+      <div className="my-14">
+        <p className="font-bold text-4xl mb-10">Stack:</p>
+        <p className="text-xl">{project.stack}</p>
+      </div>
+
       <div className="my-14">
         <h2 className="font-bold text-4xl mb-10">Description</h2>
         <h3>{project.description}</h3>
@@ -40,13 +45,17 @@ export default function Projectpage() {
           <div>{project.thoughtprocess}</div>
         </div>
       )}
-      <div className="grid md:grid-cols-2 gap-5 mt-14">
+      <div className="grid md:grid-cols-2 gap-5 mt-14 mb-8">
         {project.screenshots.map((screenshot, index) => (
           <img className="md:h-[350px]" key={index} src={screenshot} />
         ))}
       </div>
       <div>
         <img src="" alt="" />
+      </div>
+      <div className="my-14">
+        <h2 className="font-bold text-4xl mb-10">Lessons</h2>
+        <h3>{project.lessons}</h3>
       </div>
     </div>
   );
