@@ -2,6 +2,7 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import Button from "../components/button";
 import { getProject } from "../Utils/util";
+import { MdOutlineArrowBackIos } from "react-icons/md";
 
 export default function Projectpage() {
   const params = useParams();
@@ -10,6 +11,13 @@ export default function Projectpage() {
 
   return (
     <div className="px-8">
+      <a
+        href="/projects"
+        className="flex space-x-3 text-lg relative top-14 hover:cursor-pointer"
+      >
+        <MdOutlineArrowBackIos size={20} />
+        <p>Projects</p>
+      </a>
       <div className="flex justify-between items-center mb-3">
         <h2 className="text-4xl font-bold mb-10 mt-24">{project.title}</h2>
         <Button>LIVE PREVIEW</Button>
