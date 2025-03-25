@@ -13,7 +13,7 @@ export default function Projectpage() {
     <div className="px-8">
       <a
         href="/projects"
-        className="flex space-x-3 text-lg relative top-14 hover:cursor-pointer"
+        className="flex items-center space-x-3 text-lg relative top-14 hover:cursor-pointer"
       >
         <MdOutlineArrowBackIos size={20} />
         <p>Projects</p>
