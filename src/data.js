@@ -17,6 +17,7 @@ import Girlie from "./assets/girlie.jpg";
 import Witen1 from "./assets/witen1.png";
 import Witen from "./assets/witen.png";
 import Witen2 from "./assets/witen2.png";
+import Chatbot from "./assets/chatbot.png";
 
 
 
@@ -138,6 +139,32 @@ export const projectList = [
         lessons: <>
             <p>
                 This project taught me that when taking an assessment test, it’s important to be prepared for the unexpected because anything can happen. While recruiters may have high expectations, giving your best effort is still valuable, as it exposes you to new learning experiences from different perspectives. However, putting in your best effort doesn’t always guarantee an offer, so it’s important to manage expectations and stay grounded. In the end, I didn’t get called—but hey, it was still a great learning experience! 😆
+            </p>
+        </>,
+        id: 5,
+        screenshots: [Witen1, Witen2]
+    },
+    {
+        title: "MY CHATBOT ",
+        stack: "Next.js, TypeScript, Python, FastApi",
+        description:
+            "I’ve always been curious about how chatbots work, especially those that pop up in the corner of a website, inviting you to ask anything so they can quickly assist you. It’s fascinating how they help users find information ASAP, ultimately saving time and effort.",
+        thoughtprocess: <>
+            <p>
+                One day, a colleague casually asked if I had ever built a chatbot. I told him I hadn’t, but added that it was definitely something I’d love to try. He offered to help by providing his API keys so I could integrate them once I completed the frontend. With that kind of support, I thought what reason did I have not to give it a shot?
+
+                A week later, after building the frontend, I approached him to learn how to handle the backend. He graciously walked me through the entire process, explaining each step in detail.
+            </p>
+        </>,
+        challenges: <>
+            <p>
+                One of the challenges I faced while working on this project was the structure of the assessment and the time limit. The email sent for the test did not provide any description or heads-up about what to expect. It was only after clicking the link that I could see the details of the test. This lack of prior information caught me off guard, and I panicked as soon as I accessed the test.
+            </p>
+        </>,
+        image: Chatbot,
+        lessons: <>
+            <p>
+                Deciding to try something new is one thing, but actually putting in the effort to start building is what truly makes the difference. Although I didn’t have the skills to develop the backend myself, I knew how to approach the challenge wisely. With solid prompting, some creative coding, and valuable help from my colleague, I was able to pull it off. This experience has definitely inspired me to keep taking on new problems and pushing my limits. 😆
             </p>
         </>,
         id: 5,

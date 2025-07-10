@@ -6,13 +6,11 @@ export default function Testimonials() {
     <section id="testimonials">
       <div>
         <h2 className="text-2xl font-bold mt-24 mb-4 uppercase tracking-wider text-center">
-          Testimonials
+          testimonials
         </h2>
       </div>
       <div className="px-8 gap-10  ">
         <TestiCard />
-        {/* <TestiCard />
-        <TestiCard /> */}
       </div>
     </section>
   );
